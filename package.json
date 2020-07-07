@@ -5,9 +5,10 @@
   "main": "index.js",
   "private": true,
   "scripts": {
+    "heroku-postbuild": "webpack -p" ,
     "dev": "webpack-dev-server --config webpack.dev.js --open",
     "prod": "webpack --config webpack.prod.js",
-    "start":"webpack --config webpack.prod.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",

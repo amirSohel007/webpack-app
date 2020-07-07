@@ -11,10 +11,11 @@ module.exports = {
     entry: './src/index.js',
 
   // Application Output Path
-    output: {
-      path: path.resolve(__dirname, 'dist'),
-      filename: 'build.[hash].js'
-    },
+  output: {
+    path: __dirname,
+    publicPath: '/',
+    filename: 'bundle.js'
+  },
 
   // Plugins
     plugins: [
