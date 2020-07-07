@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+
+$primary:#161f3a;
+
+ul {padding: 0;}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+}
+
+input {width: 100%;
+margin-bottom: 12px;
+border-radius: 0;
+border: solid 1px #e5e5e5;
+height: 40px;
+}
+
+#result {
+    height: 49px;
+    background: $primary;
+    color: #fff;
+    font-size: 17px;
+    border: none;
+    width: 100%;
+}
